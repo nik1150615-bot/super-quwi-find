@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/super-quwi-find/sw.js', { scope: '/super-quwi-find/' })})}
